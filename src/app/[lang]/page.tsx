@@ -26,13 +26,13 @@ export default function Home({
       <div>
         <p className="text-slate-700">
           Hey, I&apos;m Jesi 👋🏼. <br />
-          I&apos;m a software engineer with over 15 years of experience in this
+          I&apos;m a software engineer with over 15 years of experience in the
           industry.
           <br /> I&apos;m deeply passionate about coding, learning new
-          technologies and dedicated to guiding teams and clients towards their
+          technologies, as well as dedicated to guiding teams and clients towards their
           goals.
-          <br />I love diving into the whole product-making adventure, getting
-          my hands-on both on techy stuff and product shaping.
+          <br />I love diving into the whole product-making adventure, taking hands-on
+          approach on both the tech and product shaping sides of things.
         </p>
       </div>
       <div className="flex flex-col gap-4">
@@ -50,10 +50,10 @@ export default function Home({
             </Link>
           </div>
           <p className="text-slate-500">
-            Involved in projects from scratch - startups and big companies.
+            Involved in projects from scratch -- startups and big companies.
             <br />
-            Hands-on developer, decision maker, team lead and supporter, client
-            partner, product and scope definition.
+            Boots on the ground developer, decision maker, team lead and supporter, client
+            partner, participating on product and scope definition.
             <br />
             Actively reviewing on-going projects.
           </p>
