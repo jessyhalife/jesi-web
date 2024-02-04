@@ -5,13 +5,13 @@ import { useState } from "react";
 const ThemeButton = () => {
   const [darkmode, setDarkmode] = useState<boolean>(
     typeof document !== "undefined"
-      ? document.body.classList.contains("dark")
+      ? document.documentElement.classList.contains("dark")
       : false
   );
 
   const toggleTheme = () => {
-    document.body.classList.toggle("dark");
-    setDarkmode(document.body.classList.contains("dark"));
+    document.documentElement.classList.toggle("dark");
+    setDarkmode(document.documentElement.classList.contains("dark"));
   };
 
   return (
