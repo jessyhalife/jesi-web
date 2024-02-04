@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Jesica Halife",
-  description: "Fullstack software engineer",
+  description: "Jesica Halife - Fullstack software engineer",
 };
 
 export default function RootLayout({
@@ -18,7 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/jesi-dev.png" sizes="any" />
+        <link rel="icon" href="/favicon-16x16.png" sizes="any" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
       <body className={inter.className}>
         <div className="flex flex-col justify-center md:flex-row min-h-screen overflow-auto px-6 py-8 md:px-0 md:py-24 gap-4 md:gap-0 max-w-screen-lg mx-auto">
@@ -33,7 +34,14 @@ export default function RootLayout({
             </div>
             <ul className="flex flex-row md:flex-col gap-1 text-sm md:text-lg flex-wrap">
               <li className="mb-2 flex flex-row gap-1 text-slate-500 font-semibold">
-                <span className="line-through">stalk</span>reach me at:
+                <p className="relative">
+                  <span className="line-through">stalk</span>
+                  <span className="bg-slate-200 absolute text-black font-mono -top-3 md:-top-4 -left-1 md:-left-2 -rotate-12">
+                    reach
+                  </span>
+                </p>
+
+                <p>me at:</p>
               </li>
               <li>
                 <Link href="https://www.linkedin.com/in/jesica-halife/">
