@@ -11,7 +11,17 @@ export default function Home({
     <div className="flex flex-col gap-8">
       <div>
         <h1 className="text-4xl font-bold">Jesica Halife</h1>
-        <h2 className="text-lg text-slate-500">Fullstack software engineer</h2>
+        <h2 className="text-lg text-slate-500">
+          <span
+            className="underline-offset-4"
+            style={{
+              textDecoration: "underline wavy red",
+            }}
+          >
+            Fullstack
+          </span>{" "}
+          software engineer
+        </h2>
       </div>
       <div>
         <p className="text-slate-700">
