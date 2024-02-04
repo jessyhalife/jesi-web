@@ -17,6 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/jesi-dev.png" sizes="any" />
+      </head>
       <body className={inter.className}>
         <div className="flex flex-col justify-center md:flex-row min-h-screen overflow-auto px-6 py-8 md:px-0 md:py-24 gap-4 md:gap-0 max-w-screen-lg mx-auto">
           <aside className="bg-white flex-[0.3] flex flex-col gap-4 items-center md:gap-24 md:justify-normal justify-between">
