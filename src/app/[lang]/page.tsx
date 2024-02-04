@@ -11,7 +11,7 @@ export default function Home({
     <div className="flex flex-col gap-8">
       <div>
         <h1 className="text-4xl font-bold">Jesica Halife</h1>
-        <h2 className="text-lg text-slate-500">
+        <h2 className="text-lg text-slate-500 dark:text-slate-300">
           <span
             className="underline-offset-4"
             style={{
@@ -24,7 +24,7 @@ export default function Home({
         </h2>
       </div>
       <div>
-        <p className="text-slate-700">
+        <p className="text-slate-700 dark:text-slate-300">
           Hey, I&apos;m Jesi 👋🏼. <br />
           I&apos;m a software engineer with over 15 years of experience in the
           industry.
@@ -49,7 +49,7 @@ export default function Home({
               Aerolab
             </Link>
           </div>
-          <p className="text-slate-500">
+          <p className="text-slate-500 dark:text-slate-400">
             Involved in projects from scratch -- startups and big companies.
             <br />
             Boots on the ground developer, decision maker, team lead and supporter, client
