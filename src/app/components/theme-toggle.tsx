@@ -2,12 +2,14 @@
 
 import { useState } from "react";
 
+
 const ThemeButton = () => {
   const [darkmode, setDarkmode] = useState<boolean>(
     typeof document !== "undefined"
       ? document.documentElement.classList.contains("dark")
       : false
   );
+  
 
   const toggleTheme = () => {
     document.documentElement.classList.toggle("dark");
