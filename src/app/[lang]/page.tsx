@@ -29,10 +29,11 @@ export default function Home({
           I&apos;m a software engineer with over 15 years of experience in the
           industry.
           <br /> I&apos;m deeply passionate about coding, learning new
-          technologies, as well as dedicated to guiding teams and clients towards their
-          goals.
-          <br />I love diving into the whole product-making adventure, taking hands-on
-          approach on both the tech and product shaping sides of things.
+          technologies, as well as dedicated to guiding teams and clients
+          towards their goals.
+          <br />I love diving into the whole product-making adventure, taking
+          hands-on approach on both the tech and product shaping sides of
+          things.
         </p>
       </div>
       <div className="flex flex-col gap-4">
@@ -52,16 +53,20 @@ export default function Home({
           <p className="text-slate-500 dark:text-slate-400">
             Involved in projects from scratch -- startups and big companies.
             <br />
-            Boots on the ground developer, decision maker, team lead and supporter, client
-            partner, participating on product and scope definition.
+            Boots on the ground developer, decision maker, team lead and
+            supporter, client partner, participating on product and scope
+            definition.
             <br />
             Actively reviewing on-going projects.
           </p>
         </div>
       </div>
       <div className="flex flex-col gap-4">
-        <h3 className="text-2xl font-semibold">main stack</h3>
+        <h3 className="text-2xl font-semibold">main skills</h3>
         <div className="flex flex-row flex-wrap gap-4">
+          <span className="hover:shadow-md py-1 px-2 font-light shadow-sm rounded-full text-sm border border-slate-200 text-center">
+            Product
+          </span>
           <span className="hover:shadow-md py-1 px-2 font-light shadow-sm rounded-full text-sm border border-slate-200 text-center">
             Next.js
           </span>
@@ -91,6 +96,12 @@ export default function Home({
           </span>
           <span className="hover:shadow-md py-1 px-2 font-light shadow-sm rounded-full text-sm border border-slate-200 text-center">
             noSQL
+          </span>
+          <span className="hover:shadow-md py-1 px-2 font-light shadow-sm rounded-full text-sm border border-slate-200 text-center">
+            DynamoDB
+          </span>
+          <span className="hover:shadow-md py-1 px-2 font-light shadow-sm rounded-full text-sm border border-slate-200 text-center">
+            Serverless
           </span>
         </div>
       </div>

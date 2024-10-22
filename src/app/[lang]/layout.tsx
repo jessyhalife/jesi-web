@@ -58,6 +58,9 @@ export default function RootLayout({
               <li>
                 <Link href="mailto:halife.jessy@gmail.com">/ email</Link>
               </li>
+              <li>
+                <Link target="_blank" href="/cv.pdf">/ resume</Link>
+              </li>
             </ul>
           </aside>
           <main className="md:flex-[0.6] p-4">{children}</main>
