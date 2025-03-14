@@ -40,26 +40,49 @@ export default function Home({
         <h3 className="text-2xl font-semibold">now working as</h3>
         <div className="gap-4 flex flex-col">
           <div className="text-lg flex flex-row flex-wrap justify-between">
-            <p className="font-light">Development Specialist</p>
+            <p className="font-light">Senior Software Engineer</p>
             <Link
-              href="https://aerolab.us"
+              href="https://www.cookunity.com/"
               target="_blank"
               rel="noreferrer noopener"
-              className="font-semibold text-orange-600 hover:text-orange-400"
+              className="font-semibold text-yellow-500 hover:text-yellow-400"
             >
-              Aerolab
+              👩🏽‍🍳 CookUnity
             </Link>
           </div>
           <p className="text-slate-500 dark:text-slate-400">
-            Involved in projects from scratch -- startups and big companies.
-            <br />
-            Boots on the ground developer, decision maker, team lead and
-            supporter, client partner, participating on product and scope
-            definition.
-            <br />
-            Actively reviewing on-going projects.
+            Part of the activation team within the growth zone, responsible for
+            building, improving, and mantaining the platform -- focused on user
+            retention by delivering an exceptional experience, ultimately
+            driving customer satisfaction and increasing revenue.
           </p>
         </div>
+      </div>
+      <div className="flex flex-col gap-2 text-gray-500">
+        <div className="flex flex-row gap-2 items-center justify-between">
+          <div className="flex flex-row items-center gap-2">
+            <h3 className="text-md font-light text-gray-500">(prev)</h3>
+            <p className="font-light text-sm">Development Specialist</p>
+          </div>
+          <Link
+            href="https://aerolab.us"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="font-semibold text-sm text-orange-600 hover:text-orange-400"
+          >
+            🪁 Aerolab
+          </Link>
+        </div>
+
+        <p className="text-slate-500 text-sm dark:text-slate-400">
+          Involved in projects from scratch -- startups and big companies.
+          <br />
+          Boots on the ground developer, decision maker, team lead and
+          supporter, client partner, participating on product and scope
+          definition.
+          <br />
+          Actively reviewing on-going projects.
+        </p>
       </div>
       <div className="flex flex-col gap-4">
         <h3 className="text-2xl font-semibold">main skills</h3>
